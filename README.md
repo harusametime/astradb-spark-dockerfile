@@ -1,4 +1,4 @@
-# Dockerfile for running Spark job with AstraDB
+# Dockerfile for Running Spark Jobs with Astra DB
 
 The Spark Cassandra Connector (SCC) lets you process DataStax Astra DB data with Apache Spark. See the step-by-step SCC guide here:  
 [https://docs.datastax.com/en/astra-db-serverless/databases/connect-apache-spark.html](https://docs.datastax.com/en/astra-db-serverless/databases/connect-apache-spark.html)  
