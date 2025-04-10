@@ -15,7 +15,7 @@ The following versions have been tested and confirmed to work with this setup:
 
 # How to build and run
 
-### 1. Cloning repository
+### 1. Clone the repository
 
 ```shell
 git clone https://github.com/harusametime/astradb-spark-dockerfile.git
@@ -28,7 +28,7 @@ For non-vector Astra DB, find the download link in the "Connect" tab:
 
 Please place the zip file in the directory `scb`. 
 
-### 3. Create config file
+### 3. Create a Config File
 
 Create spark-defaults.conf in the repo root with this template (update the zip filename):  
 
@@ -46,7 +46,8 @@ This requires application token in <Token Here>, which can be found above the do
 
 ![image](https://github.com/user-attachments/assets/60ebc188-8627-414b-ae9e-76d3a11eda1e)
 
-###  4. Check if you have all necessary files
+###  4. Verify Your File Structure
+
 ```
 astradb-spark-dockerfile
 ├── Dockerfile
@@ -55,13 +56,14 @@ astradb-spark-dockerfile
 └── spark-defaults.conf
 ```
 
-### 5. Build 
+### 5. Build the Docker Image
 
 ```shell
 docker build ./ -t astradb-spark
 ```
 
-### 6. Run and enter spark-shell
+### 6. Run and Access Spark Shell
+
 
 ```shell 
 docker run -it astradb-spark /bin/bash
