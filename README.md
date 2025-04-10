@@ -5,6 +5,14 @@ The Spark Cassandra Connector (SCC) lets you process DataStax Astra DB data with
 
 This repo packages the setup into a Dockerfile for easy environment creation with one Docker command.
 
+## Verified Versions
+The following versions have been tested and confirmed to work with this setup:  
+- **Scala**: 2.12  
+- **Spark**: 3.5.5  
+- **Spark Cassandra Connector**: 3.5.1  
+- **Hadoop**: 3  
+
+
 # How to build and run
 
 ### 1. Cloning repository
