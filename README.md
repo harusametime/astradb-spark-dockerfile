@@ -57,12 +57,16 @@ astradb-spark-dockerfile
 ```
 
 ### 5. Build the Docker Image
+Run the following command in the root of the repository (i.e., directly under astradb-spark-dockerfile):  
+
 
 ```shell
 docker build ./ -t astradb-spark
 ```
 
 ### 6. Run and Access Spark Shell
+
+Run the following command in the root of the repository (i.e., directly under astradb-spark-dockerfile):  
 
 
 ```shell 
