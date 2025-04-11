@@ -42,7 +42,7 @@ spark.dse.continuousPagingEnabled false
 spark.driver.extraClassPath /usr/local/spark/jars/*:/root/.ivy2/jars/*
 spark.executor.extraClassPath /usr/local/spark/jars/*:/root/.ivy2/jars/*
 ```
-This requires application token in <Token Here>, which can be found above the download link to secure connect bundle.
+This requires application token in **\<Token Here\>**, which can be found above the download link to secure connect bundle.
 
 ![image](https://github.com/user-attachments/assets/60ebc188-8627-414b-ae9e-76d3a11eda1e)
 
